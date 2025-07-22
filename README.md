@@ -141,6 +141,7 @@ SELECT ROUND(SUM(SALES)) AS total_revenue
 FROM sales_data_sample; 
 ```
 <img src="total_revenue_kpi.png" alt="Total Revenue KPI" width="6000">
+
 ---
 
 ### 🧾 Number of Unique Orders (KPI)
@@ -149,3 +150,14 @@ SELECT COUNT(DISTINCT ORDERNUMBER) AS total_orders
 FROM sales_data_sample; 
 ```
 ![Number of Orders KPI](total_orders_kpi.png)
+
+---
+
+### 💳 Average Order Value (AOV)
+```sql
+SELECT 
+  ROUND(SUM(SALES) / COUNT(DISTINCT ORDERNUMBER), 2) AS avg_order_value
+FROM sales_data_sample; 
+```
+![Average Order Value KPI](aov_kpi.png)
+
