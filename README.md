@@ -143,4 +143,9 @@ FROM sales_data_sample;
 <img src="total_revenue_kpi.png" alt="Total Revenue KPI" width="6000">
 ---
 
-
+### 🧾 Number of Unique Orders (KPI)
+```sql
+SELECT COUNT(DISTINCT ORDERNUMBER) AS total_orders
+FROM sales_data_sample; 
+```
+![Number of Orders KPI](images/total_orders_kpi.png)
