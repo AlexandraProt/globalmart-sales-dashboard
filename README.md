@@ -148,4 +148,4 @@ FROM sales_data_sample;
 SELECT COUNT(DISTINCT ORDERNUMBER) AS total_orders
 FROM sales_data_sample; 
 ```
-![Number of Orders KPI](images/total_orders_kpi.png)
+![Number of Orders KPI](total_orders_kpi.png)
