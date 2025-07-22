@@ -121,6 +121,26 @@ ORDER BY month;
 ```
 ---
 
+## 📊 Task 4: Creating Visualizations and Dashboard in Databricks
 
+To bring insights to life, I created visualizations directly in Databricks using the built-in dashboard interface. Each visualization is based on a SQL query and represents a key sales metric.
+
+### ✅ Visualizations Created:
+
+| Metric                        | Visualization Type | Description                                 |
+|------------------------------|--------------------|---------------------------------------------|
+| 💰 Total Sales Revenue       | KPI                | Displays total revenue using `SUM(SALES)`   |
+| 📦 Number of Orders          | KPI                | Count of unique orders                      |
+| 💳 Average Order Value (AOV) | KPI                | Total revenue divided by number of orders   |
+| 🔝 Top 10 Orders by Revenue  | Bar Chart          | Highest grossing orders sorted descending   |
+| 📈 Monthly Sales Trend       | Line Chart         | Shows how revenue evolved over time         |
+
+### 📎 Example Query for KPI
+```sql
+SELECT ROUND(SUM(SALES)) AS total_revenue
+FROM sales_data_sample; 
+```
+<img src="images/total_revenue_kpi.png" alt="Total Revenue KPI" width="600">
+---
 
 
