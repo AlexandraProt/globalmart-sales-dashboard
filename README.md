@@ -135,12 +135,12 @@ To bring insights to life, I created visualizations directly in Databricks using
 | 🔝 Top 10 Orders by Revenue  | Bar Chart          | Highest grossing orders sorted descending   |
 | 📈 Monthly Sales Trend       | Line Chart         | Shows how revenue evolved over time         |
 
-### 📎 Example Query for KPI
+### 📎 💰 Total Sales Revenue   
 ```sql
 SELECT ROUND(SUM(SALES)) AS total_revenue
 FROM sales_data_sample; 
 ```
-<img src="total_revenue_kpi.png" alt="Total Revenue KPI" width="600">
+<img src="total_revenue_kpi.png" alt="Total Revenue KPI" width="6000">
 ---
 
 
