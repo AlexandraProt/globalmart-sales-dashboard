@@ -140,7 +140,7 @@ To bring insights to life, I created visualizations directly in Databricks using
 SELECT ROUND(SUM(SALES)) AS total_revenue
 FROM sales_data_sample; 
 ```
-<img src="images/total_revenue_kpi.png" alt="Total Revenue KPI" width="600">
+<img src="total_revenue_kpi.png" alt="Total Revenue KPI" width="600">
 ---
 
 
