@@ -161,3 +161,15 @@ FROM sales_data_sample;
 ```
 ![Average Order Value KPI](aov_kpi.png)
 
+---
+
+### 🔝 Top 10 Orders by Revenue
+```sql
+SELECT ORDERNUMBER, ROUND(SUM(SALES), 2) AS total_order_sales
+FROM sales_data_sample
+GROUP BY ORDERNUMBER
+ORDER BY total_order_sales DESC
+LIMIT 10;
+```
+![Top 10 Orders](top_10_orders_bar.png)
+
