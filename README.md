@@ -187,5 +187,19 @@ ORDER BY month_date;
 
 - Sharp increases are noticeable around **October 2003** and **October 2004**, indicating seasonal peaks.
 
+## 📊 Task 5: Arranging and Filtering the Dashboard
+### 📊 Dashboard Overview
+
+The interactive GlobalMart Sales Dashboard was created in Databricks using widgets for KPIs and visual insights:
+
+- **Total Sales Revenue**: 💰 10.03M
+- **Number of Orders**: 📦 307
+- **Average Order Value (AOV)**: 📊 32.68K
+- **Monthly Sales Trend**: Line chart showing seasonal patterns and spikes in Q4
+- **Top 10 Orders by Revenue**: Bar chart highlighting highest-value orders
+
+![GlobalMart Sales Dashboard](dashboard_screenshot.png)
+
+
 
 
