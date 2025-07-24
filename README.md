@@ -173,3 +173,19 @@ LIMIT 10;
 ```
 ![Top 10 Orders](top_10_orders_bar.png)
 
+
+### 📈 Monthly Sales Trend
+```sql
+SELECT 
+  DATE_TRUNC('MONTH', TO_DATE(ORDERDATE, 'M/d/yyyy H:mm')) AS month_date,
+  ROUND(SUM(SALES), 2) AS monthly_sales
+FROM sales_data_sample
+GROUP BY month_date
+ORDER BY month_date;
+```
+![Monthly Sales Trend](monthly_sales_trend_line.png) 
+
+- Sharp increases are noticeable around **October 2003** and **October 2004**, indicating seasonal peaks.
+
+
+
