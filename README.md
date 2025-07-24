@@ -183,7 +183,7 @@ FROM sales_data_sample
 GROUP BY month_date
 ORDER BY month_date;
 ```
-![Monthly Sales Trend](monthly_sales_trend_line.png) 
+![Monthly Sales Trend](monthly_sales_trend.png) 
 
 - Sharp increases are noticeable around **October 2003** and **October 2004**, indicating seasonal peaks.
 
